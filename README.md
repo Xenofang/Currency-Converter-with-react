@@ -1,16 +1,121 @@
-# React + Vite
+# 💱 React Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Currency Converter built with **React + Vite** using reusable components and a custom hook.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🔗 https://your-deployment-link.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+(Replace with your Vercel/Netlify deployment link)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- 💲 Convert between different currencies
+- 🔁 Swap currencies instantly
+- ⚛️ Built with reusable components
+- 🧠 Custom React Hook (`useCurrency`)
+- 🎨 Clean and responsive UI
+- ⚡ Fast build using Vite
+
+---
+
+## 🗂 Project Structure
+
+```
+src/
+│
+├── App.jsx              # Main component
+├── InputBox.jsx         # Reusable input component
+├── useCurrency.js       # Custom hook for currency API
+├── main.jsx             # Entry point
+├── index.js             # Root rendering
+├── App.css              # Styling
+```
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+
+---
+
+## 📥 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+Go into the project folder:
+
+```bash
+cd your-repo-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+
+```
+Live URL: https://your-project-name.vercel.app
+```
+
+---
+
+### Deploy on Netlify
+
+1. Run:
+   ```
+   npm run build
+   ```
+2. Upload the `dist` folder to https://netlify.com
+
+---
+
+## 🧠 Learning Concepts Used
+
+- React Functional Components
+- useState & useEffect
+- Custom Hooks
+- Props Handling
+- API Data Fetching
+- Component Reusability
+
+---
+
+## 👨‍💻 Author
+
+Your Name  
+GitHub: https://github.com/your-username  
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
